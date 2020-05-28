@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1
+{
+	font-family: 'alex_brushregular', Arial, "Times New Roman", san-serif;
+	font-size: 80px;
+	text-align: center;
+}
+
+body
+{
+	font-family: 'Open San Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.box
+ {
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 20px;
+        color: white;
+ }
+ #box1::after 
+ {
+        content: "Hello";
+        display: flex;
+        transform: rotateX(180deg);
+ }
